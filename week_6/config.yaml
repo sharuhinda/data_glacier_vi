@@ -1,0 +1,20 @@
+
+file_ext: csv
+input_name: d:\Work\Programming\DataAnalysis\GlobalLandTemperaturesByCity_x1
+output_name: d:\Work\Programming\DataAnalysis\temperaturesbycity_verified
+input_delimiter: ","
+output_delimiter: "|"
+cols_expected:
+    - dt
+    - AverageTemperature
+    - City
+    - Country
+    - Latitude
+    - Longitude
+cols_validated: 
+    - dt
+    - avg_temp
+    - city
+    - country
+    - latitude
+    - longitude
